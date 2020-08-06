@@ -1,0 +1,2 @@
+# Primer-kori-enja-klase-RadioBox
+Primer korišćenja klase RadioBox RadiButton omogućava grupisanje opcija i za to se koristi klasa ToggleButton. Klasa RadioButtonDemo proširuje CheckBoxDemo redefiniše metod getPane() method (linija12). Novi metod getPane() poziva metod getPane() izklase CheckBoxDemo da bi kreirao granično okno (border pane) koji sadrži polja potvrđivanja (check boxes), dugmad (buttons) i tekst. Granično okno se vraća pozivanjem metoda super.getPane().
